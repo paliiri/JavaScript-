@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Модальное окно с Drag and Drop</title>
+  </head>
+  <body>
+    <button id="openModal">Open Modal</button>
+    <section id="modal" class="modal">
+      <header class="modal-header">
+        Modal window
+        <button id="closeModal" class="close-btn">&times;</button>
+      </header>
+      <article class="modal-content">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore ea
+          distinctio autem eligendi harum deleniti iure sequi nostrum unde,
+          corrupti deserunt fuga vel aperiam in enim quidem quod. Rerum,
+          obcaecati.
+        </p>
+      </article>
+      <article id="resizeHandle" class="resize-handle"></article>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
